@@ -1,0 +1,3 @@
+function onClickHandler() {
+    localStorage.clear()
+}

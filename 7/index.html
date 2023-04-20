@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информатика на 5</title>
+    <Link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body class="back">
+    
+    <p class="title">№7 Адресация в сети интернет</p>
+        
+        <ol class="settings">
+
+            <li>Фотография Кремля хранится на компьютере по адресу C:\photo\kremlin.png. <br>Данную фотографию переместили в каталог monuments сайта photo.ru, доступ к которому осуществляется по протоколу http. <br>В таблице фрагменты адреса файла закодированы числами от 1 до 8. Запишите последовательность этих цифр, кодирующую адрес указанного файла в сети Интернет.
+                1) photo.    2) .png  3) ://<br>
+                4) monuments 5) http  6) /<br>
+                7) kremlin   8) ru</li>
+
+                <input class="area" id="answer-1" oninput="onChangeHandler1(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-1" onclick="onClickHandler1()" type="submit">Проверить</button> <br>
+
+                <span id="answer-right-1" class="answer">
+                    Ответ верный.
+                </span>
+
+                <span id="answer-wrong-1" class="answer">
+                    Ответ неверный. 
+                </span>
+
+            <li>Файл preview.png был выложен в каталоге img на сайте alg.ru, доступ к которому осуществляется по протоколу ftp. <br>В таблице фрагменты адреса файла закодированы числами от 1 до 8. Запишите последовательность этих цифр, <br>кодирующую адрес указанного файла в сети Интернет.
+                1) /    2) preview <br>
+                3) ftp  4) alg.   5) ru <br>
+                6) img  7) .png   8) ://</li>
+
+                <input class="area" id="answer-2" oninput="onChangeHandler2(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-2" onclick="onClickHandler2()" type="submit">Проверить</button> <br>
+
+                <span id="answer-right-2" class="answer">
+                    Ответ верный.
+                </span>
+
+                <span id="answer-wrong-2" class="answer">
+                    Ответ неверный. 
+                </span>
+
+            <li>Доступ к файлу book.jpg, находящемуся на сервере biblioteka.ru, осуществляется по протоколу http. <br>Фрагменты адреса файла закодированы цифрами от 1 до 7. Запишите последовательность этих цифр, <br>кодирующую адрес указанного файла в сети Интернет.
+                1) .jpg         2) ://<br>
+                3) biblioteka. 4) http<br>
+                5) book        6) /<br>
+                7) ru</li>
+
+                <input class="area" id="answer-3" oninput="onChangeHandler3(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-3" onclick="onClickHandler3()" type="submit">Проверить</button> <br>
+
+                <span id="answer-right-3" class="answer">
+                    Ответ верный.
+                </span>
+
+                <span id="answer-wrong-3" class="answer">
+                    Ответ неверный. 
+                </span>
+
+            <li>Доступ к файлу boom.gif, находящемуся на сервере light.com, осуществляется по протоколу http. <br>Фрагменты адреса файла закодированы цифрами от 1 до 7. Запишите последовательность этих цифр, <br>кодирующую адрес указанного файла в сети Интернет.
+                1) com    2) ://<br>
+                3) .gif   4) /<br>
+                5) boom   6) http<br>
+                7) light.</li>
+
+                <input class="area" id="answer-4" oninput="onChangeHandler4(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-4" onclick="onClickHandler4()" type="submit">Проверить</button> <br>
+
+                <span id="answer-right-4" class="answer">
+                    Ответ верный.
+                </span>
+
+                <span id="answer-wrong-4" class="answer">
+                    Ответ неверный. 
+                </span>
+
+            <li>Доступ к файлу come.doc, находящемуся на сервере doc.net, осуществляется по протоколу ftp. <br>Фрагменты адреса файла закодированы цифрами от 1 до 7. Запишите последовательность этих цифр, <br>кодирующую адрес указанного файла в сети Интернет.
+                1) ://   2) come<br>
+                3) /     4) .doc<br>
+                5) ftp   6) net<br>
+                7) doc.</li>
+
+                <input class="area" id="answer-5" oninput="onChangeHandler5(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-5" onclick="onClickHandler5()" type="submit">Проверить</button> <br>
+
+                <span id="answer-right-5" class="answer">
+                    Ответ верный.
+                </span>
+
+                <span id="answer-wrong-5" class="answer">
+                    Ответ неверный. 
+                </span>
+
+            <li>Доступ к файлу index.htm, находящемуся на сервере foto.ru, осуществляется по протоколу http. <br>В таблице фрагменты адреса файла закодированы цифрами от 1 до 7. Запишите последовательность этих цифр, <br>кодирующую адрес указанного файла в сети Интернет.
+                1) http    2) .htm<br>
+                3) foto    4) ://<br>
+                5) /       6) index<br>
+                7) .ru</li>
+
+                <input class="area" id="answer-6" oninput="onChangeHandler6(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-6" onclick="onClickHandler6()" type="submit">Проверить</button> <br>
+
+                <span id="answer-right-6" class="answer">
+                    Ответ верный.
+                </span>
+
+                <span id="answer-wrong-6" class="answer">
+                    Ответ неверный. 
+                </span>
+
+            <li>Доступ к файлу kassa.xls, находящемуся на сервере magazin.com, осуществляется по протоколу http.<br> Фрагменты адреса файла закодированы цифрами от 1 до 7. Запишите последовательность этих цифр, <br>кодирующую адрес указанного файла в сети Интернет.
+                1) kassa   2) ://<br>
+                3) /       4) com<br>
+                5) http    6) magazin.<br>
+                7) .xls</li>
+
+                <input class="area" id="answer-7" oninput="onChangeHandler7(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-7" onclick="onClickHandler7()" type="submit">Проверить</button> <br>
+
+                <span id="answer-right-7" class="answer">
+                    Ответ верный.
+                </span>
+
+                <span id="answer-wrong-7" class="answer">
+                    Ответ неверный. 
+                </span>
+
+            <li>Доступ к файлу hello.jpg, находящемуся на сервере home.info, осуществляется по протоколу ftp.<br> Фрагменты адреса файла закодированы цифрами от 1 до 7. Запишите последовательность этих цифр, кодирующую адрес указанного файла в сети Интернет.
+                1) hello   2) .jpg<br>
+                3) ftp     4) info<br>
+                5) home.   6) /<br>
+                7) ://</li>
+
+                <input class="area" id="answer-8" oninput="onChangeHandler8(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-8" onclick="onClickHandler8()" type="submit">Проверить</button> <br>
+
+                <span id="answer-right-8" class="answer">
+                    Ответ верный.
+                </span>
+
+                <span id="answer-wrong-8" class="answer">
+                    Ответ неверный. 
+                </span>
+
+            <li>Доступ к файлу happy.htm, находящемуся на сервере sibline.ru, осуществляется по протоколу http.<br> Фрагменты адреса файла закодированы цифрами от 1 до 7. Запишите последовательность этих цифр, <br>кодирующую адрес указанного файла в сети Интернет.
+                1) /     2) sibline<br>
+                3) .htm  4) ://<br>
+                5) .ru   6) happy<br>
+                7) http</li>
+
+                <input class="area" id="answer-9" oninput="onChangeHandler9(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-9" onclick="onClickHandler9()" type="submit">Проверить</button> <br>
+
+                <span id="answer-right-9" class="answer">
+                    Ответ верный.
+                </span>
+
+                <span id="answer-wrong-9" class="answer">
+                    Ответ неверный. 
+                </span>
+
+                <p>
+                    Правильных ответов: <span id="right-answers"></span>
+                </p>
+                
+                <a href="../index.html"><input class="home" name="guruweba_example_submit" type="submit" value="На главную" /></a><br>
+        </ol>
+    
+        <script src="./data.js"></script>
+        <script src="./index.js"></script>
+    </body>
+    </html>

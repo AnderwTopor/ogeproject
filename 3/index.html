@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информатика на 5</title>
+    <Link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body class="back">
+    
+    <p class="title">№3 Анализ истинности высказывания с числами</p>
+        
+        <ol class="settings">
+
+            <li>Напишите наибольшее двузначное число x, для которого истинно высказывание:<br>
+                (ТОЛЬКО ПЕРВАЯ ЦИФРА ЧЁТНАЯ) И НЕ (ЧИСЛО ДЕЛИТСЯ НА 7) И (ЧИСЛО ДЕЛИТСЯ НА 9)<br>
+                                                                          
+                <input class="area" id="answer-1" oninput="onChangeHandler111(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-1" onclick="onClickHandler111()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-1" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-1" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+            
+            <li>Напишите наименьшее двузначное число x, для которого истинно высказывание:<br>
+                (ТОЛЬКО ПЕРВАЯ ЦИФРА ЧЁТНАЯ) И НЕ (ЧИСЛО ДЕЛИТСЯ НА 3) И (ЧИСЛО ДЕЛИТСЯ НА 5)<br>
+                                                                                
+                <input class="area" id="answer-2" oninput="onChangeHandler222(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-2" onclick="onClickHandler222()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-2" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-2" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+                  
+            <li>Напишите наибольшее двузначное число x, для которого истинно высказывание:<br>
+                (ТОЛЬКО ПЕРВАЯ ЦИФРА ЧЁТНАЯ) И НЕ (ЧИСЛО ДЕЛИТСЯ НА 3) И (ЧИСЛО ДЕЛИТСЯ НА 5)<br>
+                                                                          
+                <input class="area" id="answer-3" oninput="onChangeHandler333(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-3" onclick="onClickHandler333()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-3" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-3" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+            
+            <li>Напишите наименьшее двузначное число x, для которого истинно высказывание:<br>
+                (ТОЛЬКО ПЕРВАЯ ЦИФРА НЕЧЁТНАЯ) И НЕ (ЧИСЛО ДЕЛИТСЯ НА 4) И (ЧИСЛО ДЕЛИТСЯ НА 5)<br>
+                                                                          
+                <input class="area" id="answer-4" oninput="onChangeHandler444(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-4" onclick="onClickHandler444()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-4" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-4" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+            
+            <li>Напишите наибольшее двузначное число x, для которого истинно высказывание:<br>
+                (ТОЛЬКО ПЕРВАЯ ЦИФРА НЕЧЁТНАЯ) И НЕ (ЧИСЛО ДЕЛИТСЯ НА 6) И (ЧИСЛО ДЕЛИТСЯ НА 7)<br>
+                                                                          
+                <input class="area" id="answer-5" oninput="onChangeHandler555(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-5" onclick="onClickHandler555()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-5" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-5" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+            
+            <li>Напишите наибольшее число x, для которого ложно высказывание:<br>
+                (x > 95) ИЛИ НЕ (x кратно 14)<br>
+                                                                          
+                <input class="area" id="answer-6" oninput="onChangeHandler666(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-6" onclick="onClickHandler666()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-6" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-6" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+            
+            <li>Напишите наименьшее число x, для которого истинно высказывание:<br>
+                НЕ (x ≤ 53) И НЕ (x не делится на 53)<br>
+                                                                          
+                <input class="area" id="answer-7" oninput="onChangeHandler777(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-7" onclick="onClickHandler777()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-7" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-7" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+            
+            <li>Напишите наибольшее число x, для которого истинно высказывание:<br>
+                НЕ (x ≥ 38) И НЕ(x не делится на 17)<br>
+                                                                       
+                <input class="area" id="answer-8" oninput="onChangeHandler888(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-8" onclick="onClickHandler888()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-8" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-8" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+            <li>Напишите наименьшее число x, для которого истинно высказывание:<br>
+                НЕ (x ≤ 39) И (x кратно 12)<br>
+                                                                          
+                <input class="area" id="answer-9" oninput="onChangeHandler999(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-9" onclick="onClickHandler999()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-9" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-9" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+            
+            <li>Напишите наименьшее число x, для которого истинно высказывание:<br>
+                (x > 79) И (x кратно 2)<br>
+                                                                          
+                <input class="area" id="answer-10" oninput="onChangeHandler101010(this)" name="answer_1" type="text" size="60" />
+                <button class="button" id="check-10" onclick="onClickHandler101010()" type="submit">Проверить</button> <br>
+
+            <span id="answer-right-10" class="answer">
+                Ответ верный.
+            </span>
+
+            <span id="answer-wrong-10" class="answer">
+                Ответ неверный. 
+            </span>
+        </li>
+            
+        <p>
+            Правильных ответов: <span id="right-answers"></span>
+        </p>
+                <a href="../index.html"><input class="home" name="guruweba_example_submit" type="submit" value="На главную" /></a><br>
+        </ol>
+        <script src="./data.js"></script>
+        <script src="./index.js"></script>
+    </body>
+    </html>

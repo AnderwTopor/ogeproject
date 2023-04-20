@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информатика на 5</title>
+    <Link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body class="back">
+    
+    <p class="title">№8 Оценка количества результатов поискового запроса</p>
+        
+        <ol class="settings">
+
+<li>Ниже приведены запросы и количество страниц, которые нашел поисковый сервер по этим запросам в некотором сегменте Интернета:<br>
+    шахматы | теннис  7770<br>
+    теннис            5500<br>
+    шахматы & теннис  1000<br>
+  Сколько страниц будет найдено по запросу
+    шахматы</li> 
+
+    <input class="area" id="answer-1" oninput="onChangeHandler1(this)" name="answer_1" type="text" size="60" />
+    <button class="button" id="check-1" onclick="onClickHandler1()" type="submit">Проверить</button> <br>
+
+    <span id="answer-right-1" class="answer">
+        Ответ верный.
+    </span>
+
+    <span id="answer-wrong-1" class="answer">
+        Ответ неверный. 
+    </span>
+
+
+<li>Ниже приведены запросы и количество страниц, которые нашел поисковый сервер по этим запросам в некотором сегменте Интернета:<br>
+    Швеция              3200<br>
+    Финляндия           2300<br>
+    Швеция & Финляндия  100<br>
+  Сколько страниц будет найдено по запросу
+    Швеция | Финляндия</li>
+
+    <input class="area" id="answer-2" oninput="onChangeHandler2(this)" name="answer_1" type="text" size="60" />
+    <button class="button" id="check-2" onclick="onClickHandler2()" type="submit">Проверить</button> <br>
+
+    <span id="answer-right-2" class="answer">
+        Ответ верный.
+    </span>
+
+    <span id="answer-wrong-2" class="answer">
+        Ответ неверный. 
+    </span>
+
+
+<li>Ниже приведены запросы и количество страниц, которые нашел поисковый сервер по этим запросам в некотором сегменте Интернета:<br>
+    Пушкин | Лермонтов   5200<br>
+    Пушкин & Лермонтов   300<br>
+    Лермонтов            2100<br>
+  Сколько страниц будет найдено по запросу 
+    Пушкин</li>
+
+    <input class="area" id="answer-3" oninput="onChangeHandler3(this)" name="answer_1" type="text" size="60" />
+    <button class="button" id="check-3" onclick="onClickHandler3()" type="submit">Проверить</button> <br>
+
+    <span id="answer-right-3" class="answer">
+        Ответ верный.
+    </span>
+
+    <span id="answer-wrong-3" class="answer">
+        Ответ неверный. 
+    </span>
+
+
+<li>Ниже приведены запросы и количество страниц, которые нашел поисковый сервер по этим запросам в некотором сегменте Интернета:<br>
+    лебедь & (рак | щука)	320<br>
+    лебедь & рак          200<br>
+    лебедь & рак & щука   50<br>
+  Сколько страниц будет найдено по запросу
+    лебедь & щука</li>
+
+    <input class="area" id="answer-4" oninput="onChangeHandler4(this)" name="answer_1" type="text" size="60" />
+    <button class="button" id="check-4" onclick="onClickHandler4()" type="submit">Проверить</button> <br>
+
+    <span id="answer-right-4" class="answer">
+        Ответ верный.
+    </span>
+
+    <span id="answer-wrong-4" class="answer">
+        Ответ неверный. 
+    </span>
+
+
+<li>Ниже приведены запросы и количество страниц, которые нашел поисковый сервер по этим запросам в некотором сегменте Интернета:<br>
+    Пекин & (Москва | Токио)  338<br>
+    Пекин & Москва            204<br>
+    Пекин & Москва & Токио    50<br>
+  Сколько страниц будет найдено по запросу
+    Пекин & Токио</li>
+
+    <input class="area" id="answer-5" oninput="onChangeHandler5(this)" name="answer_1" type="text" size="60" />
+    <button class="button" id="check-5" onclick="onClickHandler5()" type="submit">Проверить</button> <br>
+
+    <span id="answer-right-5" class="answer">
+        Ответ верный.
+    </span>
+
+    <span id="answer-wrong-5" class="answer">
+        Ответ неверный. 
+    </span>
+
+
+<li>Ниже приведены запросы и количество страниц, которые нашел поисковый сервер по этим запросам в некотором сегменте Интернета:<br>
+    Мадрид & Берлин	   245<br>
+    Мадрид & Берлин & Париж  120<br>
+    Мадрид & Париж	   235<br>
+  Сколько страниц будет найдено по запросу
+    Мадрид & (Берлин | Париж)</li>
+
+    <input class="area" id="answer-6" oninput="onChangeHandler6(this)" name="answer_1" type="text" size="60" />
+    <button class="button" id="check-6" onclick="onClickHandler6()" type="submit">Проверить</button> <br>
+    <span id="answer-right-6" class="answer">
+        Ответ верный.
+    </span>
+
+    <span id="answer-wrong-6" class="answer">
+        Ответ неверный. 
+    </span>
+
+<li><h3>Ниже приведены запросы и количество страниц, которые нашел поисковый сервер по этим запросам в некотором сегменте Интернета:</h3>
+    <p>Атос & Портос           335
+    Атос & Арамис           235
+    Атос & Портос & Арамис  120
+  Сколько страниц будет найдено по запросу
+    Атос & (Портос | Арамис)</p></li>
+
+    <input class="area" id="answer-7" oninput="onChangeHandler7(this)" name="answer_1" type="text" size="60" />
+    <button class="button" id="check-7" onclick="onClickHandler7()" type="submit">Проверить</button> <br>
+
+    <span id="answer-right-7" class="answer">
+        Ответ верный.
+    </span>
+
+    <span id="answer-wrong-7" class="answer">
+        Ответ неверный. 
+    </span>
+
+<li>Ниже приведены запросы и количество страниц, которые нашел поисковый сервер по этим запросам в некотором сегменте Интернета:<br>
+    крейсер | линкор    7000<br>
+    крейсер             4800<br>
+    линкор              4500<br>
+  Сколько страниц будет найдено по запросу
+    крейсер & линкор</li>
+
+    <input class="area" id="answer-8" oninput="onChangeHandler8(this)" name="answer_1" type="text" size="60" />
+    <button class="button" id="check-8" onclick="onClickHandler8()" type="submit">Проверить</button> <br>
+
+    <span id="answer-right-8" class="answer">
+        Ответ верный.
+    </span>
+
+    <span id="answer-wrong-8" class="answer">
+        Ответ неверный. 
+    </span>
+
+    <p>
+        Правильных ответов: <span id="right-answers"></span>
+    </p>
+    
+    <a href="../index.html"><input class="home" name="guruweba_example_submit" type="submit" value="На главную" /></a><br>
+        
+  </ol>
+
+<script src="./data.js"></script>
+<script src="./index.js"></script>
+</body>
+    </html>
+

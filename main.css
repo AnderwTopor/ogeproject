@@ -1,0 +1,92 @@
+.background {
+    background-image: linear-gradient(to left, rgb(135, 206, 250), rgb(240, 248, 255));
+}
+
+.container {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.tasks {
+   font-style: Arial;
+   font-size: xx-large;
+   font-weight: bold;
+   margin-left: 690px;
+   padding-top: 10px;
+   padding-bottom: 0.7cm;
+}
+
+.questions {
+   font-family: Roboto, Arial, sans-serif;
+   font-size: 55;
+   font-weight: bold;
+   background-color: #2AA5A0;
+   background-image: linear-gradient(90deg, #ec09b4, #a404e4);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin: 0;
+   line-height: 30px;
+}
+
+.distance {
+   padding-bottom: 1.5cm;
+}
+
+.title {
+    font-weight: bold;
+   margin-left: 550px;
+   padding-top: 1cm;
+   font-size: 32pt;
+   text-align: justify;
+   font-family: Fantasy;
+}
+
+.content {
+    display: grid;
+    position: relative;
+    width: 500px;
+    gap: 30px;
+    padding: 40px 50px 40px 100px;
+   border: 1px solid rgb(255, 255, 255);
+   border-radius: 40px;
+   border-style: dashed;
+   z-index: 2;
+   margin-left: 500px;
+   
+}
+
+.content::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    left: 30px;
+    z-index: -1;
+    content: "";
+    border: 2px solid blue;
+    border-radius: 40px;
+}
+
+.content::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 30px;
+    right: 30px;
+    z-index: -1;
+    content: "";
+    border: 2px solid blue;
+    border-radius: 40px;
+}
+
+.button {
+    background-color: greenyellow;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: greenyellow;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 200px;
+}

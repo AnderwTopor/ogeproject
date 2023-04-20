@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информатика на 5</title>
+    <Link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body class="back">
+    
+    <p class="title">№4 Кратчайший путь в графе с ограничениями</p>
+        
+        <ol class="settings">
+
+            <li>Между населёнными пунктами A, B, C, D, E, F построены дороги, протяжённость которых приведена в таблице. Отсутствие числа в таблице означает, что прямой дороги между пунктами нет. Определите длину кратчайшего пути между пунктами B и C, проходящего через пункт F. Передвигаться можно только по указанным дорогам.</li>
+
+            <img src="./img/1.gif" alt="   ">
+
+            <input class="area" id="answer-1" oninput="onChangeHandler1(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-1" onclick="onClickHandler1()" type="submit">Проверить</button> <br>
+        <span id="answer-right-1" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-1" class="answer">
+            Ответ неверный. 
+        </span>
+
+            <li>Между населёнными пунктами A, B, C, D, E, F построены дороги, протяжённость которых приведена в таблице. Отсутствие числа в таблице означает, что прямой дороги между пунктами нет. Определите длину кратчайшего пути между пунктами A и F, не проходящего через пункт E. Передвигаться можно только по указанным дорогам.</li>
+
+            <img src="./img/2.gif" alt="   ">
+
+            <input class="area" id="answer-2" oninput="onChangeHandler222(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-2" onclick="onClickHandler222()" type="submit">Проверить</button> <br>
+
+        <span id="answer-right-2" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-2" class="answer">
+            Ответ неверный. 
+        </span>
+
+            <li>Между населёнными пунктами A, B, C, D, E, F построены дороги, протяжённость которых приведена в таблице. Отсутствие числа в таблице означает, что прямой дороги между пунктами нет. Определите длину кратчайшего пути между пунктами A и F, проходящего через пункт E. Передвигаться можно только по указанным дорогам.</li>
+
+            <img src="./img/3.gif" alt="   ">
+
+            <input class="area" id="answer-3" oninput="onChangeHandler333(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-3" onclick="onClickHandler333()" type="submit">Проверить</button> <br>
+
+        <span id="answer-right-3" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-3" class="answer">
+            Ответ неверный. 
+        </span>
+
+            <li>Между населёнными пунктами A, B, C, D, E, F построены дороги, протяжённость которых приведена в таблице. Отсутствие числа в таблице означает, что прямой дороги между пунктами нет. Определите длину кратчайшего пути между пунктами A и B, проходящего через пункт D. Передвигаться можно только по указанным дорогам.</li>
+
+            <img src="./img/4.gif" alt="   ">
+
+            <input class="area" id="answer-4" oninput="onChangeHandler444(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-4" onclick="onClickHandler444()" type="submit">Проверить</button> <br>
+        <span id="answer-right-4" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-4" class="answer">
+            Ответ неверный. 
+        </span>
+
+            <li>Между населёнными пунктами A, B, C, D, E, F построены дороги, протяжённость которых приведена в таблице. Отсутствие числа в таблице означает, что прямой дороги между пунктами нет. Определите длину кратчайшего пути между пунктами A и D, проходящего через пункт E. Передвигаться можно только по указанным дорогам.</li>
+
+            <img src="./img/5.gif" alt="   ">
+
+            <input class="area" id="answer-5" oninput="onChangeHandler555(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-5" onclick="onClickHandler555()" type="submit">Проверить</button> <br>
+
+        <span id="answer-right-5" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-5" class="answer">
+            Ответ неверный. 
+        </span>
+
+            <li>Между населёнными пунктами A, B, C, D, E, F построены дороги, протяжённость которых приведена в таблице. Отсутствие числа в таблице означает, что прямой дороги между пунктами нет. Определите длину кратчайшего пути между пунктами A и E, проходящего через пункт D. Передвигаться можно только по указанным дорогам.</li>
+
+            <img src="./img/6.gif" alt="   ">
+
+            <input class="area" id="answer-6" oninput="onChangeHandler666(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-6" onclick="onClickHandler666()" type="submit">Проверить</button> <br>
+
+        <span id="answer-right-6" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-6" class="answer">
+            Ответ неверный. 
+        </span>
+
+            <li>Между населёнными пунктами A, B, C, D, E, F, G построены дороги, протяжённость которых приведена в таблице. Отсутствие числа в таблице означает, что прямой дороги между пунктами нет. Определите длину кратчайшего пути между пунктами A и G, проходящего через пункт E (при условии, что передвигаться можно только по построенным дорогам.</li>
+
+            <img src="./img/7.gif" alt="   ">
+
+            <input class="area" id="answer-7" oninput="onChangeHandler777(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-7" onclick="onClickHandler777()" type="submit">Проверить</button> <br>
+
+        <span id="answer-right-7" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-7" class="answer">
+            Ответ неверный. 
+        </span>
+
+            <li>Между населёнными пунктами A, B, C, D, E, F построены дороги, протяжённость которых (в километрах) приведена в таблице. Определите длину кратчайшего пути между пунктами A и D, проходящего через пункт F. Передвигаться можно только по дорогам, протяжённость которых указана в таблице.</li>
+
+            <img src="./img/8.gif" alt="   ">
+
+            <input class="area" id="answer-8" oninput="onChangeHandler888(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-8" onclick="onClickHandler888()" type="submit">Проверить</button> <br>
+
+        <span id="answer-right-8" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-8" class="answer">
+            Ответ неверный. 
+        </span>
+
+            <li>Между населёнными пунктами A, B, C, D, E, F построены дороги, протяжённость которых (в километрах) приведена в таблице. Определите длину кратчайшего пути между пунктами A и F, проходящего через пункт C. Передвигаться можно только по дорогам, протяжённость которых указана в таблице.</li>
+
+            <img src="./img/9.gif" alt="   ">
+
+            <input class="area" id="answer-9" oninput="onChangeHandler999(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-9" onclick="onClickHandler999()" type="submit">Проверить</button> <br>
+
+        <span id="answer-right-9" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-9" class="answer">
+            Ответ неверный. 
+        </span>
+
+            <li>Между населёнными пунктами A, B, C, D, E построены дороги, протяжённость которых (в километрах) приведена в таблице. Определите длину кратчайшего пути между пунктами A и D, проходящий через пункт E. Передвигаться можно только по дорогам, протяжённость которых указана в таблице.</li>
+
+            <img src="./img/10.gif" alt="   ">
+
+            <input class="area" id="answer-10" oninput="onChangeHandler101010(this)" name="answer_1" type="text" size="60" />
+            <button class="button" id="check-10" onclick="onClickHandler101010()" type="submit">Проверить</button> <br>
+
+        <span id="answer-right-10" class="answer">
+            Ответ верный.
+        </span>
+
+        <span id="answer-wrong-10" class="answer">
+            Ответ неверный. 
+        </span>
+
+        <p>
+            Правильных ответов: <span id="right-answers"></span>
+        </p>
+
+            <a href="../index.html"><input class="home" name="guruweba_example_submit" type="submit" value="На главную" /></a><br>
+        </ol>
+
+        <script src="./data.js"></script>
+        <script src="./index.js"></script>
+    </body>
+    </html>

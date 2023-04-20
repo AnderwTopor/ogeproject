@@ -1,0 +1,162 @@
+.back {
+    background: linear-gradient(rgb(255, 255, 255), rgb(90, 210, 247));
+}
+
+.settings {
+    display: grid;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2cm;
+    margin-bottom: 1cm;
+    margin-right: 10cm;
+    line-height: 2;
+}
+
+.title {
+    margin-left: 600px;
+    font-size: xx-large;
+    margin-bottom: 2cm;
+    margin-top: 1.5cm;
+    font-weight: bold;
+}
+
+.button {
+    background-color: greenyellow;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: greenyellow;
+    width: 110px;
+    height: 25px;
+}
+
+.area {
+    border-radius: 7px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.home {
+    background-color: greenyellow;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: greenyellow;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 25px;
+}
+
+.answer {
+    display: none;
+}
+
+.answer-right-1 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-1 {
+    display: block;
+    color: red;
+}
+
+.answer-right-2 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-2 {
+    display: block;
+    color: red;
+}
+
+.answer-right-3 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-3 {
+    display: block;
+    color: red;
+}
+
+.answer-right-4 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-4 {
+    display: block;
+    color: red;
+}
+
+.answer-right-5 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-5 {
+    display: block;
+    color: red;
+}
+
+.answer-right-6 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-6 {
+    display: block;
+    color: red;
+}
+
+.answer-right-7 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-7 {
+    display: block;
+    color: red;
+}
+
+.answer-right-8 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-8 {
+    display: block;
+    color: red;
+}
+
+.answer-right-9 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-9 {
+    display: block;
+    color: red;
+}
+
+.answer-right-10 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-10 {
+    display: block;
+    color: red;
+}
+
+.answer-right-11 {
+    display: block;
+    color: green;
+}
+
+.answer-wrong-11 {
+    display: block;
+    color: red;
+}
